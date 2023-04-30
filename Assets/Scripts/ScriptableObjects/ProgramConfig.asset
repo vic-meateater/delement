@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154bafed13220f4f907c9f04f2949e3, type: 3}
+  m_Name: ProgramConfig
+  m_EditorClassIdentifier: 
+  Multimeter: {fileID: 4783907183989587325, guid: 6aeeb7044e8e67b4886b4eaa4910270c, type: 3}
+  HighlightMaterial: {fileID: 964830189915520459, guid: 4fe1d4ff303a2dd42b3826401fc84c03, type: 3}
+  MultimeterView: {fileID: -7557606105284879732, guid: eaa7aee5581a80e49b257621309e7253, type: 3}
+  StepValue: 20
+  RValue: 1000
+  PValue: 400
