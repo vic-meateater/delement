@@ -50,7 +50,6 @@ public class CalculationsController: IDisposable
             case ZeroValueView:
                 _textValues.Clear();
                 SetValuesToZero();
-                ShowDisplayText(_calcModel.GetZeroValue(),"");
                 break;
             default:
                 break;
@@ -67,11 +66,6 @@ public class CalculationsController: IDisposable
         {
             textValue.text = value.ToString(formatter);
         }
-    }
-
-    private void ShowDisplayText(float value, string formatter = "F2")
-    {
-        _multimeterView.DisplayText.text = value.ToString(formatter);
     }
 
     private void SetValuesToZero()
